@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.random-color-generator-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.rbg-color-container,
+.hex-color-container {
+    flex: 1;
+    min-height: 100vh;
+}
+
+.hex-color-container button {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(38, 38, 110);
+
+}
+
+.rbg-color-container {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hex-color-container {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.hex-color-value {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.rbg-color-container button {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    background-color: orange
+}
